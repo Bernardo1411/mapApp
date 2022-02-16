@@ -11,6 +11,7 @@ export default function MapScreen({ navigation }) {
   useEffect(() => {
     async function getData() {
       try {
+        // markers database
         const res = await fetch("https://mobile.ect.ufrn.br:3003/markers", {
           headers: {
             Authorization: `Bearer vv7oTsHdw0X9g5e7QbniP58j3iJY4h6AoOSxMIw2X8xjokSHjF`,
