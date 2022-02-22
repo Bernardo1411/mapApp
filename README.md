@@ -33,7 +33,7 @@ cd mapApp/mapApp
 npm install
 
 # Execute
-npm start
+expo start
 ```
 
 # Author
